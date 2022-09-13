@@ -1,0 +1,59 @@
+name: subillmanager
+description: A simple multi-platform electricity bill manager.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.1.0
+
+environment:
+  sdk: ">=2.15.0-268.8.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bot_toast: ^4.0.1
+  flutter_hooks: ^0.18.1
+  gsheets: ^0.3.2
+  hive_flutter: ^1.1.0
+  hooks_riverpod: ^1.0.0
+  intl: ^0.17.0
+  lucide_icons: ^0.16.19
+  package_info_plus: ^1.3.0
+  page_transition: ^2.0.4
+  path_provider: ^2.0.7
+  shared_preferences: ^2.0.9
+  url_launcher: ^6.0.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  # For Material Icons
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/subillmanager.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
